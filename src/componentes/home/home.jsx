@@ -17,13 +17,13 @@ const Home = () => {
         </div>
       </div>
        <div className="icones">
-        <a href="https://github.com/seu-usuario" target="_blank" rel="noopener noreferrer" title="GitHub">
+        <a href="https://github.com/Joaobatiist" target="_blank" rel="noopener noreferrer" title="GitHub">
           <FaGithub />
         </a>
         <a href="https://www.linkedin.com/in/joao-victor-oliveira-8b9b1a1b5/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
           <FaLinkedin />
         </a>
-        <a href="/caminho-do-seu-curriculo.pdf" target="_blank" rel="noopener noreferrer" title="Baixar Currículo">
+        <a href="/curriculo 26.1.pdf" download="Curriculo_JoaoVictor.pdf" title="Baixar Currículo">
           <FaFileDownload />
         </a>
       </div>

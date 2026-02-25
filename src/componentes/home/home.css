@@ -269,20 +269,98 @@
   }
 }
 
-/* Notebooks Full HD 15" e maiores (1440px+) */
-@media (min-width: 1240px) {
+/* Monitores grandes 2K+ (1920px+) */
+@media (min-width: 1920px) {
+  .home-container {
+    padding: 180px 50px 80px;
+  }
+
+  .home {
+    gap: 50px;
+    padding: 30px;
+  }
+
+  .text-content {
+    margin-right: 5%;
+  }
+
+  .home-container h1 {
+    font-size: 2.8em;
+  }
+
+  .role {
+    font-size: 1.2em;
+  }
+
+  .description {
+    font-size: 1.3em;
+    max-width: 550px;
+  }
+
+  .foto {
+    width: 280px;
+    height: 280px;
+    margin-left: 120px;
+  }
+
+  .liguagem {
+    margin: 40px auto 30px;
+  }
+
+  .liguagem h2 {
+    font-size: 1.3em;
+    margin-bottom: 40px;
+  }
+
+  .skill-icon {
+    padding: 30px;
+  }
+
+  .skill-icon svg {
+    font-size: 3.3em;
+  }
+
+  .skill-icon span {
+    font-size: 0.95em;
+  }
+
+  .skills-track {
+    gap: 80px;
+  }
+}
+
+/* Notebooks Full HD 15.6\" e monitores intermediários (1600px - 1919px) */
+@media (min-width: 1600px) and (max-width: 1919px) {
   .home-container {
     padding: 120px 40px 70px;
   }
 
   .home {
-    gap: 70px;
+    gap: 50px;
     padding: 25px;
+  }
+
+  .text-content {
+    margin-right: 5%;
+  }
+
+  .home-container h1 {
+    font-size: 2.9em;
+  }
+
+  .role {
+    font-size: 1.5em;
+  }
+
+  .description {
+    font-size: 1.2em;
+    max-width: 520px;
   }
 
   .foto {
     width: 250px;
     height: 250px;
+    margin-left: 100px;
   }
 
   .liguagem {
@@ -311,135 +389,78 @@
   }
 }
 
-/* Notebooks Full HD 15" 1920x1080 específico */
-@media (min-width: 1920px) and (min-height: 1080px) {
+/* Notebooks 15.6\" padrão 1366x768 e similares (1366px - 1599px) */
+@media (min-width: 1366px) and (max-width: 1599px) {
   .home-container {
-    padding: 120px 40px 80px;
-    min-height: 100vh;
-    justify-content: center;
-  }
-}
-
-/* Notebooks 15" HD e intermediários (1280px - 1439px) */
-@media (min-width: 1280px) and (max-width: 1439px) {
-  .home-container {
-    padding: 80px 35px 60px;
+    padding: 120px 35px 60px;
   }
 
   .home {
-    gap: 50px;
-    padding: 15px;
-  }
-
-  .text-content {
-    margin-right: 2%;
-  }
-
-  .home-container h1 {
-    font-size: 2.4em;
-  }
-
-  .description {
-    font-size: 1.05em;
-    max-width: 460px;
-  }
-
-  .foto {
-    width: 200px;
-    height: 200px;
-    margin-left: 30px;
-  }
-
-  .icones {
-    margin-top: 5px;
-    padding: 5px;
-  }
-
-  .icones a {
-    font-size: 1.5em;
-  }
-
-  .liguagem {
-    margin: 25px auto 20px;
-  }
-
-  .liguagem h2 {
-    font-size: 1.3em;
-    margin-bottom: 25px;
-  }
-
-  .skill-icon {
+    gap: 130px;
     padding: 20px;
   }
 
-  .skill-icon svg {
-    font-size: 2.6em;
-  }
-
-  .skill-icon span {
-    font-size: 0.8em;
-  }
-
-  .skills-track {
-    gap: 60px;
-  }
-}
-
-/* Notebooks 15" 1366x768 - Resolução exata mais comum */
-@media (min-width: 1366px) and (max-width: 1366px) and (min-height: 700px) and (max-height: 800px) {
-  .home-container {
-    padding: 75px 35px 50px;
-  }
-
-  .home {
-    gap: 45px;
-    padding: 12px;
+  .text-content {
+    margin-right: 3%;
   }
 
   .home-container h1 {
-    font-size: 2.3em;
+    font-size: 2.6em;
+  }
+
+  .role {
+    font-size: 1.45em;
   }
 
   .description {
-    font-size: 1.02em;
+    font-size: 1.15em;
+    max-width: 480px;
   }
 
   .foto {
-    width: 190px;
-    height: 190px;
-    margin-left: 25px;
+    width: 220px;
+    height: 220px;
+    margin-left: 60px;
+  }
+
+  .icones {
+    margin-top: 4px;
+  }
+
+  .icones a {
+    font-size: 1.6em;
   }
 
   .liguagem {
-    margin: 22px auto 18px;
+    margin: 28px auto 22px;
   }
 
   .liguagem h2 {
-    font-size: 1.25em;
-    margin-bottom: 22px;
+    font-size: 1.4em;
+    margin-bottom: 28px;
   }
 
   .skill-icon {
-    padding: 18px;
+    padding: 22px;
   }
 
   .skill-icon svg {
-    font-size: 2.5em;
+    font-size: 2.7em;
   }
 
   .skill-icon span {
-    font-size: 0.78em;
+    font-size: 0.83em;
   }
 
   .skills-track {
-    gap: 58px;
+    gap: 65px;
   }
 }
 
-/* Tablets landscape e notebooks pequenos (1024px - 1279px) */
-@media (min-width: 1024px) and (max-width: 1279px) {
+/* Tablets landscape e notebooks pequenos (1024px - 1366px) */
+@media (min-width: 1024px) and (max-width: 1366px) {
   .home-container {
-    padding: 70px 30px 50px;
+    padding: 200px 30px 50px;
   }
 
   .home {
@@ -502,9 +523,9 @@
 }
 
 /* Tablets médios (769px - 1023px) */
-@media (min-width: 769px) and (max-width: 1023px) {
+@media (min-width: 820px) and (max-width: 1180px) {
   .home-container {
-    padding: 130px 25px;
+    padding: 200px 25px;
   }
 
   .home {
@@ -571,7 +592,7 @@
 /* Responsividade para mobile */
 @media (max-width: 768px) {
   .home-container {
-    padding: 120px 20px;
+    padding: 200px 20px;
     min-height: auto;
   }
 
@@ -645,9 +666,9 @@
 }
 
 /* Responsividade para mobile pequeno */
-@media (max-width: 480px) {
+@media (max-width: 412px) {
   .home-container {
-    padding: 100px 15px;
+    padding: 130px 15px;
   }
 
   .home {

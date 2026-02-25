@@ -137,9 +137,141 @@
   font-size: 1.3em;
 }
 
-@media (min-width: 1024px) and (max-width: 1279px) {
+/* Monitores grandes 2K+ (1920px+) */
+@media (min-width: 1920px) {
   .servicos-container {
-    padding: 80px 30px;
+    padding: 50px 50px;
+  }
+
+  .servicos-container h2 {
+    font-size: 2em;
+  }
+
+  .projetos-subtitle {
+    font-size: 1em;
+    margin-bottom: 60px;
+  }
+
+  .servicos-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 35px;
+  }
+
+  .servico-card {
+    padding: 40px;
+  }
+
+  .servico-card h3 {
+    font-size: 1.6em;
+  }
+
+  .servico-card p {
+    font-size: 1.05em;
+  }
+
+  .tecnologias {
+    gap: 18px;
+    padding: 18px 0;
+  }
+
+  .tech-icon {
+    font-size: 2em;
+  }
+
+  .ver-mais-btn {
+    padding: 18px 45px;
+    font-size: 1.15em;
+  }
+}
+
+/* Notebooks Full HD e monitores intermediários (1600px - 1919px) */
+@media (min-width: 1600px) and (max-width: 1919px) {
+  .servicos-container {
+    padding: 10px 40px;
+  }
+
+  .servicos-container h2 {
+    font-size: 2em;
+  }
+
+  .projetos-subtitle {
+    font-size: 1.12em;
+    margin-bottom: 55px;
+  }
+
+  .servicos-grid {
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 32px;
+  }
+
+  .servico-card {
+    padding: 37px;
+  }
+
+  .servico-card h3 {
+    font-size: 1.55em;
+  }
+
+  .tecnologias {
+    gap: 16px;
+  }
+
+  .tech-icon {
+    font-size: 1.85em;
+  }
+
+  .ver-mais-btn {
+    padding: 17px 42px;
+    font-size: 1.12em;
+  }
+}
+
+/* Notebooks 15.6\" padrão (1366px - 1599px) */
+@media (min-width: 1366px) and (max-width: 1599px) {
+  .servicos-container {
+    padding: 0px 35px;
+  }
+
+  .servicos-container h2 {
+    font-size: 2em;
+  }
+
+  .projetos-subtitle {
+    font-size: 1em;
+    margin-bottom: 48px;
+  }
+
+  .servicos-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 0.9fr));
+    gap: 20px;
+  }
+
+  .servico-card {
+    padding: 4px;
+  }
+
+  .servico-card h3 {
+    font-size: 1.48em;
+  }
+
+  .tecnologias {
+    gap: 15px;
+  }
+
+  .tech-icon {
+    font-size: 1.78em;
+  }
+
+  .ver-mais-btn {
+    padding: 16px 38px;
+    font-size: 1.08em;
+  }
+}
+
+/* Tablets landscape e notebooks pequenos (1024px - 1365px) */
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .servicos-container {
+    padding: 200px 30px;
   }
 
   .servicos-container h2 {
@@ -148,11 +280,11 @@
 
   .projetos-subtitle {
     font-size: 1.05em;
-    margin-bottom: 40px;
+    margin-bottom: 42px;
   }
 
   .servicos-grid {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 28px;
   }
 
@@ -180,7 +312,7 @@
 
 @media (max-width: 968px) {
   .servicos-container {
-    padding: 80px 30px;
+    padding: 50px 30px;
   }
 
   .servicos-container h2 {
@@ -209,7 +341,7 @@
 
 @media (max-width: 768px) {
   .servicos-container {
-    padding: 80px 20px;
+    padding: 130px 20px;
   }
 
   .servicos-container h2 {
@@ -268,9 +400,9 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 412px) {
   .servicos-container {
-    padding: 60px 15px;
+    padding: 130px 15px;
   }
 
   .servicos-container h2 {

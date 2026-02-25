@@ -160,33 +160,146 @@
   font-weight: 600;
 }
 
-@media (min-width: 1024px) and (max-width: 1279px) {
+/* Monitores grandes 2K+ (1920px+) */
+@media (min-width: 1920px) {
   .sobre-container {
-    padding: 80px 30px;
+    padding: 120px 50px;
+  }
+
+  .sobre-container h2 {
+    font-size: 2.8em;
+    margin-bottom: 50px;
   }
 
   .floating-icon {
-    font-size: 2.6em;
+    font-size: 4em;
   }
 
   .icon-1 {
-    left: -50px;
+    left: -100px;
   }
 
   .icon-2 {
-    right: -50px;
+    right: -100px;
   }
 
   .icon-3 {
-    left: -40px;
+    left: -80px;
   }
 
   .icon-4 {
-    right: -60px;
+    right: -120px;
   }
 
   .sobre-text {
-    font-size: 1.12em;
+    font-size: 1.3em;
+  }
+}
+
+/* Notebooks Full HD e monitores intermediários (1600px - 1919px) */
+@media (min-width: 1600px) and (max-width: 1919px) {
+  .sobre-container {
+    padding: 110px 40px;
+  }
+
+  .sobre-container h2 {
+    font-size: 2em;
+    margin-bottom: 45px;
+  }
+
+  .floating-icon {
+    font-size: 3.7em;
+  }
+
+  .icon-1 {
+    left: -90px;
+  }
+
+  .icon-2 {
+    right: -90px;
+  }
+
+  .icon-3 {
+    left: -70px;
+  }
+
+  .icon-4 {
+    right: -110px;
+  }
+
+  .sobre-text {
+    font-size: 1.25em;
+  }
+}
+
+/* Notebooks 15.6\" padrão (1366px - 1599px) */
+@media (min-width: 1366px) and (max-width: 1599px) {
+  .sobre-container {
+    padding: 10px 35px;
+  }
+
+  .sobre-container h2 {
+    font-size: 2em;
+    margin-bottom: 42px;
+  }
+
+  .floating-icon {
+    font-size: 3.2em;
+  }
+
+  .icon-1 {
+    left: -70px;
+  }
+
+  .icon-2 {
+    right: -70px;
+  }
+
+  .icon-3 {
+    left: -55px;
+  }
+
+  .icon-4 {
+    right: -85px;
+  }
+
+  .sobre-text {
+    font-size: 1.18em;
+  }
+}
+
+/* Tablets landscape e notebooks pequenos (1024px - 1366px) */
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .sobre-container {
+    padding: 200px 30px;
+  }
+
+  .sobre-container h2 {
+    font-size: 2.3em;
+  }
+
+  .floating-icon {
+    font-size: 2.8em;
+  }
+
+  .icon-1 {
+    left: -55px;
+  }
+
+  .icon-2 {
+    right: -55px;
+  }
+
+  .icon-3 {
+    left: -45px;
+  }
+
+  .icon-4 {
+    right: -65px;
+  }
+
+  .sobre-text {
+    font-size: 1.15em;
   }
 }
 
@@ -223,7 +336,7 @@
 
 @media (max-width: 768px) {
   .sobre-container {
-    padding: 80px 20px;
+    padding: 150px 20px;
   }
 
   .sobre-container h2 {
@@ -267,9 +380,9 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 412px) {
   .sobre-container {
-    padding: 60px 15px;
+    padding: 130px 15px;
     min-height: auto;
   }
 

@@ -33,7 +33,7 @@ const Experiencia = () => {
   const experiencias = [
     {
       cargo: "Desenvolvedor Fullstack",
-      empresa: "SP - Remoto",
+      empresa: " Tree - SP - Remoto",
       periodo: "Out 2025 - Atualmente",
       descricao: "Desenvolvimento e melhoria de plataforma de RPG, com foco em arquitetura escalável e experiência do usuário.",
       realizacoes: [
@@ -44,7 +44,7 @@ const Experiencia = () => {
     },
     {
       cargo: "Estagiário de Engenharia de Software",
-      empresa: "Portugal - Remoto",
+      empresa: "Aciole - Portugal - Remoto",
       periodo: "Set 2025 - Nov 2025",
       descricao: "Desenvolvimento de API RESTful com arquitetura MVC e trabalho colaborativo em metodologias ágeis.",
       realizacoes: [

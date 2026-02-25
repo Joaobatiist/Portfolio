@@ -200,10 +200,98 @@
   font-weight: 500;
 }
 
-/* Responsividade para notebooks pequenos e tablets landscape */
-@media (min-width: 1024px) and (max-width: 1279px) {
+/* Monitores grandes 2K+ (1920px+) */
+@media (min-width: 1920px) {
   .formacao-container {
-    padding: 80px 30px;
+    padding: 100px 50px;
+  }
+
+  .formacao-container h2 {
+    font-size: 2em;
+    margin-bottom: 70px;
+  }
+
+  .section-title {
+    font-size: 1.95em;
+  }
+
+  .formacao-card {
+    padding: 35px;
+  }
+
+  .formacao-card h4 {
+    font-size: 1.5em;
+  }
+
+  .certificacao-card {
+    padding: 24px;
+  }
+}
+
+/* Notebooks Full HD e monitores intermediários (1600px - 1919px) */
+@media (min-width: 1600px) and (max-width: 1919px) {
+  .formacao-container {
+    padding: 120px 40px;
+  }
+
+  .formacao-container h2 {
+    font-size: 2em;
+    margin-bottom: 65px;
+  }
+
+  .section-title {
+    font-size: 1.85em;
+  }
+
+  .formacao-card {
+    padding: 32px;
+  }
+
+  .formacao-card h4 {
+    font-size: 1.45em;
+  }
+
+  .certificacao-card {
+    padding: 22px;
+  }
+}
+
+/* Notebooks 15.6\" padrão (1366px - 1599px) */
+@media (min-width: 1366px) and (max-width: 1599px) {
+  .formacao-container {
+    padding: 10px 35px;
+  }
+
+  .formacao-container h2 {
+    font-size: 2em;
+    margin-bottom: 58px;
+  }
+
+  .formacao-top-section {
+    gap: 38px;
+  }
+
+  .section-title {
+    font-size: 1.75em;
+  }
+
+  .formacao-card {
+    padding: 30px;
+  }
+
+  .formacao-card h4 {
+    font-size: 1.38em;
+  }
+
+  .certificacao-card {
+    padding: 20px;
+  }
+}
+
+/* Tablets landscape e notebooks pequenos (1024px - 1365px) */
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .formacao-container {
+    padding: 200px 30px;
   }
 
   .formacao-container h2 {
@@ -268,7 +356,7 @@
 
 @media (max-width: 768px) {
   .formacao-container {
-    padding: 80px 15px;
+    padding: 130px 15px;
   }
 
   .formacao-container h2 {
@@ -340,9 +428,9 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 412px) {
   .formacao-container {
-    padding: 60px 10px;
+    padding: 130px 10px;
   }
 
   .formacao-container h2 {

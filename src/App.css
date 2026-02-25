@@ -107,9 +107,22 @@ html, body {
   width: 100%;
 }
 
-/* Scroll suave melhorado */
+/* Scroll suave melhorado com padding responsivo */
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 100px;
+  scroll-padding-top: 120px;
+}
+
+/* Ajuste do scroll padding para diferentes resoluções */
+@media (max-width: 1365px) {
+  html {
+    scroll-padding-top: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    scroll-padding-top: 80px;
+  }
 }
 

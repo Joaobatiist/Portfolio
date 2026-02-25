@@ -21,8 +21,8 @@ const Sobre = () => {
             em projetos reais com clientes, onde pude aplicar meus conhecimentos em desenvolvimento de software, análise de dados e automação.
           </p>
           <p className="sobre-text">
-            Com domínio em <strong>Java, Python, JavaScript e TypeScript</strong>, trabalho tanto no front-end com <strong>React</strong> quanto no back-end com <strong>Spring Boot</strong>, 
-            sempre focado em entregar código limpo, manutenível e que faça a diferença para o usuário final.
+            Com domínio em <strong>Java, Python, JavaScript e TypeScript</strong>, trabalho tanto no front-end  quanto no back-end, 
+            trazendo clean code, com facilidade de manutenção e que faça a diferença para o usuário final.
           </p>
           <p className="sobre-text">
             Possuo  base em análise de dados com Power BI, além de conhecimento em bancos de dados <strong>SQL</strong> e <strong>NOSQL</strong>. 

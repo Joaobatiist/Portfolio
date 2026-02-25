@@ -16,15 +16,14 @@ const Servicos = () => {
       titulo: "E-commerce",
       descricao: "E-commerce para um loja de produtos de limpeza para vendas online, com painel administrativo para gerenciamento de produtos, pedidos e funcionarios.",
       tecnologias: [<SiReact key="react" />, <SiJavascript key="js" />, <SiSupabase key="supabase" />],
-      github: "#",
-      demo: "#"
+      github: "https://github.com/Joaobatiist/Loja",
+      demo: "https://limpatech.vercel.app/"
     },
     {
       titulo: "Automação de Download de Vídeos",
       descricao: "Aplicação desktop em Python para automação de download e segmentação de vídeos com suporte a múltiplos fragmentos para maior velocidade",
       tecnologias: [<SiPython key="python" />],
       github: "https://github.com/Joaobatiist/AutoClip",
-      demo: "#"
     },
   ];
 
@@ -46,9 +45,11 @@ const Servicos = () => {
               <a href={projeto.github} target="_blank" rel="noopener noreferrer" title="Ver no GitHub">
                 <FaGithub /> Código
               </a>
+              {projeto.demo && (
               <a href={projeto.demo} target="_blank" rel="noopener noreferrer" title="Ver Demo">
                 <FaExternalLinkAlt /> Demo
               </a>
+            )}
             </div>
           </div>
         ))}

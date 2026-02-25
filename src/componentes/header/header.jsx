@@ -59,8 +59,34 @@ const Header = () => {
     };
   }, []);
 
-  const handleLinkClick = () => {
+  const handleLinkClick = (e) => {
+    e.preventDefault();
     setMenuOpen(false);
+    
+    const targetId = e.currentTarget.getAttribute('href').substring(1);
+    const targetElement = document.getElementById(targetId);
+    
+    if (targetElement) {
+      // Offset responsivo baseado no tamanho da tela
+      const screenWidth = window.innerWidth;
+      let headerOffset = -20; // Padrão para telas grandes
+      
+      if (screenWidth < 768) {
+        headerOffset = -30;
+      } else if (screenWidth <= 1365) {
+        headerOffset = -30;
+      } else if (screenWidth <= 1599) {
+        headerOffset = 1;
+      }
+      
+      const elementPosition = targetElement.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.scrollY - headerOffset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+      });
+    }
   };
 
   return (
