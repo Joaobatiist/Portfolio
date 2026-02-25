@@ -1,0 +1,320 @@
+.servicos-container {
+  padding: 100px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.servicos-container h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #1e293b;
+  text-align: center;
+  font-weight: 700;
+}
+
+.projetos-subtitle {
+  text-align: center;
+  color: #64748b;
+  font-size: 1.1em;
+  margin-bottom: 50px;
+}
+
+.servicos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.servico-card {
+  padding: 35px;
+  background: #ffffff;
+  border-radius: 15px;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #e2e8f0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.servico-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(37, 99, 235, 0.1);
+  border-color: #2563eb;
+}
+
+.servico-card h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #1e293b;
+  font-weight: 600;
+}
+
+.servico-card p {
+  color: #64748b;
+  line-height: 1.6;
+  flex-grow: 1;
+}
+
+.tecnologias {
+  display: flex;
+  gap: 15px;
+  padding: 15px 0;
+  border-top: 1px solid #e2e8f0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.tech-icon {
+  font-size: 1.8em;
+  color: #64748b;
+  transition: color 0.3s ease, transform 0.3s ease;
+  display: inline-flex;
+}
+
+.tech-icon:hover {
+  color: #2563eb;
+  transform: scale(1.2);
+}
+
+.projeto-links {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.projeto-links a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  background-color: #2563eb;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 0.95em;
+  font-weight: 500;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  flex: 1;
+  justify-content: center;
+}
+
+.projeto-links a:hover {
+  background-color: #3b82f6;
+  transform: translateY(-2px);
+}
+
+/* Botão Ver Mais Projetos */
+.ver-mais-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.ver-mais-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 40px;
+  background-color: #2563eb;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 1.1em;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(37, 99, 235, 0.2);
+}
+
+.ver-mais-btn:hover {
+  background-color: #3b82f6;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 25px rgba(37, 99, 235, 0.3);
+}
+
+.ver-mais-btn svg {
+  font-size: 1.3em;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .servicos-container {
+    padding: 80px 30px;
+  }
+
+  .servicos-container h2 {
+    font-size: 2.3em;
+  }
+
+  .projetos-subtitle {
+    font-size: 1.05em;
+    margin-bottom: 40px;
+  }
+
+  .servicos-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 28px;
+  }
+
+  .servico-card {
+    padding: 32px;
+  }
+
+  .servico-card h3 {
+    font-size: 1.45em;
+  }
+
+  .tecnologias {
+    gap: 14px;
+  }
+
+  .tech-icon {
+    font-size: 1.75em;
+  }
+
+  .ver-mais-btn {
+    padding: 15px 35px;
+    font-size: 1.05em;
+  }
+}
+
+@media (max-width: 968px) {
+  .servicos-container {
+    padding: 80px 30px;
+  }
+
+  .servicos-container h2 {
+    font-size: 2.2em;
+  }
+
+  .projetos-subtitle {
+    font-size: 1em;
+    margin-bottom: 40px;
+  }
+
+  .servicos-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+  }
+
+  .servico-card {
+    padding: 30px;
+  }
+
+  .ver-mais-btn {
+    padding: 15px 35px;
+    font-size: 1.05em;
+  }
+}
+
+@media (max-width: 768px) {
+  .servicos-container {
+    padding: 80px 20px;
+  }
+
+  .servicos-container h2 {
+    font-size: 2em;
+    margin-bottom: 8px;
+  }
+
+  .projetos-subtitle {
+    font-size: 0.95em;
+    margin-bottom: 35px;
+  }
+
+  .servicos-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .servico-card {
+    padding: 28px;
+  }
+
+  .servico-card h3 {
+    font-size: 1.4em;
+  }
+
+  .servico-card p {
+    font-size: 0.95em;
+  }
+
+  .tecnologias {
+    gap: 12px;
+    padding: 12px 0;
+  }
+
+  .tech-icon {
+    font-size: 1.6em;
+  }
+
+  .projeto-links {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .projeto-links a {
+    padding: 12px 20px;
+    font-size: 0.9em;
+  }
+
+  .ver-mais-btn {
+    padding: 14px 30px;
+    font-size: 1em;
+  }
+
+  .ver-mais-container {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .servicos-container {
+    padding: 60px 15px;
+  }
+
+  .servicos-container h2 {
+    font-size: 1.7em;
+  }
+
+  .projetos-subtitle {
+    font-size: 0.9em;
+    margin-bottom: 30px;
+  }
+
+  .servico-card {
+    padding: 25px;
+  }
+
+  .servico-card h3 {
+    font-size: 1.3em;
+    margin-bottom: 8px;
+  }
+
+  .servico-card p {
+    font-size: 0.9em;
+  }
+
+  .tecnologias {
+    gap: 10px;
+    padding: 10px 0;
+  }
+
+  .tech-icon {
+    font-size: 1.5em;
+  }
+
+  .projeto-links a {
+    padding: 10px 18px;
+    font-size: 0.85em;
+  }
+
+  .ver-mais-btn {
+    padding: 12px 25px;
+    font-size: 0.95em;
+  }
+
+  .ver-mais-container {
+    margin-top: 35px;
+  }
+}

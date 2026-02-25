@@ -1,0 +1,435 @@
+.formacao-container {
+  padding: 100px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.formacao-container h2 {
+  font-size: 2.5em;
+  margin-bottom: 60px;
+  color: #1e293b;
+  text-align: center;
+  font-weight: 700;
+}
+
+.formacao-content {
+  display: grid;
+  gap: 40px;
+}
+
+/* Layout lado a lado para Educação e Certificações */
+.formacao-top-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: start;
+}
+
+.educacao-section,
+.certificacoes-section {
+  min-width: 0;
+}
+
+.section-title {
+  font-size: 1.8em;
+  color: #1e293b;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-weight: 600;
+}
+
+.section-title svg {
+  color: #2563eb;
+  font-size: 1.1em;
+}
+
+/* Educação */
+.educacao-grid {
+  display: grid;
+  gap: 25px;
+}
+
+.formacao-card {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  border-left: 4px solid #2563eb;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #e2e8f0;
+  border-left: 4px solid #2563eb;
+}
+
+.formacao-card:hover {
+  transform: translateX(10px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.formacao-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.formacao-card h4 {
+  font-size: 1.4em;
+  color: #1e293b;
+  margin: 0;
+  font-weight: 600;
+}
+
+.formacao-card .periodo {
+  color: #2563eb;
+  font-weight: 500;
+  font-size: 0.95em;
+  white-space: nowrap;
+}
+
+.formacao-card h5 {
+  color: #64748b;
+  font-size: 1.1em;
+  margin: 5px 0 15px 0;
+  font-weight: 500;
+}
+
+.formacao-card p {
+  color: #64748b;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Certificações */
+.certificacoes-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.certificacao-card {
+  background: #f8fafc;
+  padding: 20px;
+  border-radius: 12px;
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  border: 2px solid #e2e8f0;
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.certificacao-card:hover {
+  transform: translateX(5px);
+  border-color: #2563eb;
+  box-shadow: 0 8px 25px rgba(37, 99, 235, 0.1);
+}
+
+.cert-icon {
+  font-size: 2em;
+  color: #2563eb;
+  flex-shrink: 0;
+}
+
+.cert-info {
+  flex: 1;
+}
+
+.cert-info h4 {
+  font-size: 1em;
+  color: #1e293b;
+  margin: 0 0 5px 0;
+  font-weight: 600;
+}
+
+.cert-info p {
+  color: #64748b;
+  font-size: 0.9em;
+  margin: 0 0 5px 0;
+}
+
+.ano {
+  display: inline-block;
+  background: #e2e8f0;
+  color: #64748b;
+  padding: 4px 12px;
+  border-radius: 15px;
+  font-size: 0.85em;
+  font-weight: 500;
+}
+
+/* Idiomas */
+.idiomas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.idioma-card {
+  background: #f8fafc;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+  border: 2px solid #e2e8f0;
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.idioma-card:hover {
+  transform: translateY(-5px);
+  border-color: #2563eb;
+  box-shadow: 0 8px 25px rgba(37, 99, 235, 0.1);
+}
+
+.idioma-card h4 {
+  font-size: 1.3em;
+  color: #1e293b;
+  margin: 0 0 10px 0;
+  font-weight: 600;
+}
+
+.idioma-card .nivel {
+  display: inline-block;
+  background: #2563eb;
+  color: white;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+/* Responsividade para notebooks pequenos e tablets landscape */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .formacao-container {
+    padding: 80px 30px;
+  }
+
+  .formacao-container h2 {
+    font-size: 2.3em;
+    margin-bottom: 50px;
+  }
+
+  .formacao-top-section {
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+  }
+
+  .section-title {
+    font-size: 1.65em;
+  }
+
+  .formacao-card {
+    padding: 28px;
+  }
+
+  .formacao-card h4 {
+    font-size: 1.35em;
+  }
+
+  .certificacao-card {
+    padding: 19px;
+  }
+
+  .idiomas-grid {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  }
+}
+
+/* Responsividade para tablets */
+@media (max-width: 968px) {
+  .formacao-container {
+    padding: 80px 30px;
+  }
+
+  .formacao-container h2 {
+    font-size: 2.2em;
+    margin-bottom: 50px;
+  }
+
+  .formacao-top-section {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .section-title {
+    font-size: 1.7em;
+  }
+
+  .formacao-card {
+    padding: 28px;
+  }
+
+  .idiomas-grid {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .formacao-container {
+    padding: 80px 15px;
+  }
+
+  .formacao-container h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+  }
+
+  .section-title {
+    font-size: 1.5em;
+    margin-bottom: 25px;
+  }
+
+  /* Layout volta para coluna única em mobile */
+  .formacao-top-section {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .formacao-card {
+    padding: 25px;
+  }
+
+  .formacao-card h4 {
+    font-size: 1.3em;
+  }
+
+  .formacao-card h5 {
+    font-size: 1.05em;
+  }
+
+  .formacao-card p {
+    font-size: 0.95em;
+  }
+
+  .formacao-header {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+
+  .certificacao-card {
+    flex-direction: row;
+    padding: 18px;
+  }
+
+  .cert-icon {
+    font-size: 1.8em;
+  }
+
+  .cert-info h4 {
+    font-size: 0.95em;
+  }
+
+  .cert-info p {
+    font-size: 0.85em;
+  }
+
+  .idiomas-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .idioma-card {
+    padding: 22px;
+  }
+
+  .idioma-card h4 {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 480px) {
+  .formacao-container {
+    padding: 60px 10px;
+  }
+
+  .formacao-container h2 {
+    font-size: 1.7em;
+    margin-bottom: 35px;
+  }
+
+  .formacao-content {
+    gap: 35px;
+  }
+
+  .formacao-top-section {
+    gap: 35px;
+  }
+
+  .section-title {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+    gap: 10px;
+  }
+
+  .section-title svg {
+    font-size: 1em;
+  }
+
+  .educacao-grid {
+    gap: 20px;
+  }
+
+  .formacao-card {
+    padding: 20px;
+    border-left-width: 3px;
+  }
+
+  .formacao-card h4 {
+    font-size: 1.2em;
+  }
+
+  .formacao-card h5 {
+    font-size: 1em;
+    margin: 5px 0 12px 0;
+  }
+
+  .formacao-card p {
+    font-size: 0.9em;
+  }
+
+  .formacao-card .periodo {
+    font-size: 0.9em;
+  }
+
+  .certificacoes-grid {
+    gap: 15px;
+  }
+
+  .certificacao-card {
+    padding: 15px;
+    gap: 12px;
+  }
+
+  .cert-icon {
+    font-size: 1.6em;
+  }
+
+  .cert-info h4 {
+    font-size: 0.9em;
+  }
+
+  .cert-info p {
+    font-size: 0.8em;
+  }
+
+  .ano {
+    padding: 3px 10px;
+    font-size: 0.8em;
+  }
+
+  .idioma-card {
+    padding: 20px;
+  }
+
+  .idioma-card h4 {
+    font-size: 1.15em;
+  }
+
+  .idioma-card .nivel {
+    padding: 5px 14px;
+    font-size: 0.85em;
+  }
+}
