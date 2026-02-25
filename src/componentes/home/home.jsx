@@ -13,7 +13,7 @@ const Home = () => {
         </div>
 
         <div className="foto">
-          <img src="/public/perfil.jpg" alt="Foto de Perfil" />
+          <img src="/perfil.jpg" alt="Foto de Perfil" />
         </div>
       </div>
        <div className="icones">

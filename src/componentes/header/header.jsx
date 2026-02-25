@@ -80,7 +80,7 @@ const Header = () => {
         <a href="#contact" onClick={handleLinkClick}>Contatos</a>
       </nav>
       <div className="logo-foto">
-        <img src="/public/programdor.jpg" alt="Foto de Perfil" />
+        <img src="/programdor.jpg" alt="Foto de Perfil" />
       </div>
     </header> 
   );
