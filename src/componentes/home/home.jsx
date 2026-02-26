@@ -20,7 +20,7 @@ const Home = () => {
         <a href="https://github.com/Joaobatiist" target="_blank" rel="noopener noreferrer" title="GitHub">
           <FaGithub />
         </a>
-        <a href="https://www.linkedin.com/in/joao-victor-oliveira-8b9b1a1b5/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+        <a href="https://www.linkedin.com/in/jo%C3%A3o-victor-batista-3200b2253/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
           <FaLinkedin />
         </a>
         <a href="/curriculo 26.1.pdf" download="Curriculo_JoaoVictor.pdf" title="Baixar Currículo">
