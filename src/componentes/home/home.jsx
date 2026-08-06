@@ -23,7 +23,7 @@ const Home = () => {
         <a href="https://www.linkedin.com/in/jo%C3%A3o-victor-batista-3200b2253/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
           <FaLinkedin />
         </a>
-        <a href="/curriculo 26.1.pdf" download="Curriculo_JoaoVictor.pdf" title="Baixar Currículo">
+        <a href="/Cv_26.2.pdf" download="Curriculo_JoaoVictor.pdf" title="Baixar Currículo">
           <FaFileDownload />
         </a>
       </div>

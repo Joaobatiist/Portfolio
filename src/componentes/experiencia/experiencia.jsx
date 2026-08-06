@@ -35,11 +35,11 @@ const Experiencia = () => {
       cargo: "Desenvolvedor Fullstack",
       empresa: " Tree - SP - Remoto",
       periodo: "Out 2025 - Atualmente",
-      descricao: "Desenvolvimento e melhoria de plataforma de RPG, com foco em arquitetura escalável e experiência do usuário.",
+      descricao: "",
       realizacoes: [
-        "Melhorei a arquitetura do código da plataforma, trazendo mais agilidade na entrega de novas versões",
-        "Liderei o desenvolvimento de features customizadas, transformando necessidades específicas de clientes em funcionalidades escaláveis",
-        "Atuei na correção de débitos técnicos, garantindo um sistema robusto e preparado para escalabilidade"
+        "Desenvolvi sistemas de automação para integração contínua de dados governamentais, eliminando processos manuais e centralizando informações estratégicas.",
+        "Reduzi drasticamente o volume de bugs e débitos técnicos, aprimorando a robustez geral do sistema e preparando o ecossistema para escala.",
+        "Otimizei o pipeline de desenvolvimento estabelecendo padrões rigorosos de entrega para o time de QA, acelerando o ciclo de produção."
       ]
     },
     {
@@ -59,9 +59,9 @@ const Experiencia = () => {
       periodo: "Dez 2024 - Atualmente",
       descricao: "Desenvolvimento de aplicação desktop em Python para automação de download e segmentação de vídeos.",
       realizacoes: [
-        "Desenvolvi aplicação desktop que automatizou o download e segmentação de vídeos de plataformas de streaming",
-        "Implementei download acelerado usando múltiplos fragmentos",
-        "Aumentei a eficiência do fluxo de trabalho, resultando em economia significativa de tempo"
+        "Desenvolvi uma solução desktop customizada para automação do fluxo de trabalho de monitoramento e arquivamento de transmissões de TV e streaming",
+        "Eliminei gargalos operacionais ao substituir um processo manual de corte e download por uma interface automatizada, reduzindo o tempo de entrega de 2h para 5 minutos por mídia.",
+        "Aumentei a produtividade da equipe técnica e otimizei a alocação de recursos humanos, gerando impacto direto na capacidade de entrega e na receita operacional do setor."
       ]
     },
     {

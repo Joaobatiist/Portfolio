@@ -25,12 +25,18 @@ const Servicos = () => {
       tecnologias: [<SiPython key="python" />],
       github: "https://github.com/Joaobatiist/AutoClip",
     },
+     {
+      titulo: "Sistema de Hotelaria",
+      descricao: "Sistema de hotelaria completo com pagamentos, reservas, verificação de dias disponíveis.",
+      tecnologias: [<SiReact key="react" />, <SiJavascript key="js" />, <SiSupabase key="supabase" />],
+      github: "https://pousadaparaisonativo.com.br/",
+    },
   ];
 
   return (
     <section id="services" className="servicos-container">
       <h2>Projetos</h2>
-      <p className="projetos-subtitle">Alguns dos projetos que desenvolvi</p>
+      <p className="projetos-subtitle">Projetos com cliente reais.</p>
       <div className="servicos-grid">
         {projetos.map((projeto, index) => (
           <div className="servico-card" key={index}>
